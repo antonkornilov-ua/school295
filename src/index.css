@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: Roboto Slab, serif;
+    }
+}
+.fade-anim img {
+    animation: fadeAnim 2s ease-in-out;
+}
+@keyframes fadeAnim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home,
+.about,
+.contact {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.page-icon {
+    margin-left: 1rem;
+    font-size: 100px;
+}
+
+#error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+    .home,
+    .about,
+    .contact {
+        font-size: 2.5rem;
+    }
+
+    .page-icon {
+        margin-left: 1rem;
+        font-size: 80px;
+    }
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
