@@ -1,4 +1,4 @@
-import moons from './../assets/moon.svg';
+import moons from './../assets/Moon.svg';
 
 const Background = ({ children }) => {
     return (
