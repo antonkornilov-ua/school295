@@ -3,7 +3,7 @@ import documentLinks from '../helpers/documentLinks';
 
 const Documents = () => {
     const gridStyle = `grid lg:grid-cols-2 grid-cols-1 gap-x-10 mt-10`;
-    const rightColStyle = `lg:flex items-center justify-center lg:text-6xl font-bold text-gray-700 text-center text-4xl lg:mb-0 mb-5`;
+    const rightColStyle = `lg:flex items-center justify-center lg:text-6xl font-bold text-gray-700 text-center text-2xl lg:mb-0 mb-5`;
     const buttonStyle = ` w-1/2 mx-auto text-white/90 text-center uppercase bg-gray-700 px-4 py-2 hover:bg-gray-600 active:bg-gray-500 rounded-xl hover:scale-90 active:scale-110 shadow-xl`;
 
     return (

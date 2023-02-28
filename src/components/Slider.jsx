@@ -55,7 +55,7 @@ const Slider = () => {
         <div className='opacity-70'>
             <div ref={slideRef} className='relative w-full select-none'>
                 <div className=' '>
-                    <img src={imageArray[currentIndex]} alt='' className='object-cover lg:h-[400px] w-screen rounded-lg mb-20 ' />
+                    <img src={imageArray[currentIndex]} alt='' className='object-cover lg:h-[400px] h-[250px] w-screen rounded-lg mb-20 ' />
                 </div>
                 <div className='absolute top-1/2 flex w-full -translate-y-1/2 transform items-start justify-between px-3 '>
                     <FiChevronLeft
