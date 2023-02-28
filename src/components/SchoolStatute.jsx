@@ -1,9 +1,9 @@
 import React from 'react';
 
 const SchoolStatute = () => {
-    const gridStyle = `grid lg:grid-cols-2 gap-x-10 grid-cols-1 max-h-[60vh] mt-10`;
+    const gridStyle = `grid lg:grid-cols-2 gap-x-10 grid-cols-1 mt-10`;
     const leftColStyle = `lg:flex items-center justify-center lg:text-6xl font-bold text-gray-700 text-center text-4xl lg:mb-0 mb-5`;
-    const rightColStyle = `overflow-y-auto lg:bg-inherit bg-transparent/10`;
+    const rightColStyle = `overflow-y-auto lg:bg-inherit bg-transparent/10 h-[400px]`;
 
     return (
         <div className={gridStyle}>

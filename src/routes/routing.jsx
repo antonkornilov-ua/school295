@@ -7,7 +7,7 @@ import { AppLayout } from './layout'
 import Index from '../pages/Index'
 import Personnel from '../pages/Personnel'
 import Contacts from '../pages/Contacts'
-import About from '../pages/About'
+import NewAbout from '../pages/NewAbout'
 
 
 export const routing = createBrowserRouter([
@@ -30,7 +30,7 @@ export const routing = createBrowserRouter([
             },
             {
                 path: '/about',
-                element: <About />,
+                element: <NewAbout />,
             },
         ],
     },

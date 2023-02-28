@@ -5,25 +5,25 @@ import UsefulLinks from '../components/UsefulLinks';
 import ExtraLessons from '../components/ExtraLessons';
 import Territory from '../components/Territory';
 
-const About = () => {
+
+
+const NewAbout = () => {
     return (
-        <div className='flex w-full flex-col overflow-hidden h-screen pb-10'>
+        <div className='flex flex-col w-full'>
             <div className='px-[8%] lg:mx-auto lg:max-w-7xl'>
-                <div className='lg:my-8 my-2'>
-                    <h1 className='text-center lg:text-4xl 2xl:text-8xl my-2 uppercase text-2xl font-bold tracking-wide text-gray-900 sm:text-6xl'>
-                        Про школу №295
-                    </h1>
-                </div>
-                <div className='flex-1 flex flex-col'>
-                    <SchoolStatute />
+                <h1 className='my-4 text-center lg:text-6xl 2xl:text-8xl uppercase font-bold tracking-wide text-gray-900 text-3xl'>
+                    Про школу №295
+                </h1>
+                <div className='flex flex-col gap-y-48  items-center my-10'>
+                    <Territory />
                     <UsefulLinks />
                     <Documents />
                     <ExtraLessons />
-                    <Territory/>
+                    <SchoolStatute />
                 </div>
             </div>
         </div>
     );
 };
 
-export default About;
+export default NewAbout;
