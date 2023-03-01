@@ -13,6 +13,6 @@ It was made with: </br>
     - Leaflet</br>
 
 Link to app: </br>
-<b>https://anton-kornilov-cv.netlify.app/</b>
+<b>https://school295.netlify.app/</b>
 
 
